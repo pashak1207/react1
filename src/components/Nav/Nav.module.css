@@ -1,0 +1,19 @@
+.nav {
+    grid-area: n;
+    background: #3290bf;
+    padding: 20px;
+}
+
+a {
+    color: #fff;
+    font-weight: 700;
+    font-size: 21px;
+}
+
+li {
+    margin-bottom: 20px;
+}
+
+li:last-child {
+    margin: 0;
+}
