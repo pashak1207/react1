@@ -1,3 +1,5 @@
 .messages{
     display: flex;
+    background: #fcfcfc;
+    height: 100%;
 }

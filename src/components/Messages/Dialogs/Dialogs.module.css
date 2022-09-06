@@ -1,4 +1,5 @@
 .dialogs{
     flex: 0 0 25%;
     background: #fcfcfc;
+    border-left: 1px solid #eee;
 }
