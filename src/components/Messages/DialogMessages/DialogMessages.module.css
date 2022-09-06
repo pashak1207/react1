@@ -1,0 +1,6 @@
+.dialogMessages{
+    flex: 0 0 75%;
+    background: #fcfcfc;
+    height: 100%;
+    border-left: 1px solid #eee;
+}

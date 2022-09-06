@@ -1,0 +1,31 @@
+.dialogProfile{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    cursor: pointer;
+    border-top: 1px solid #eee;
+    background: #f7f7f7;
+    transition: all 0.3s ease 0s;;
+}
+
+.dialogProfile:last-child{
+    border-bottom: 1px solid #eee;
+}
+
+.dialogProfile:hover{
+    background: #c7c7c7de;
+}
+
+.text{
+    margin-left: 10px;
+}
+
+.text h3{
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.text p{
+    font-weight: 500;
+}

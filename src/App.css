@@ -94,7 +94,7 @@ h6 {
 
 
 
-.App {
+.app {
   display: grid;
   grid-template-areas: "h h"
     "n c";
