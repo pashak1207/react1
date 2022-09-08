@@ -1,12 +1,10 @@
 import classes from "./DialogMessages.module.css";
 import DialogMessagesItem from "./DialogsMaessagesItem/DialogMessagesItem";
 
-const DialogMessages = () => {
+const DialogMessages = (props) => {
     return (
         <div className={classes.dialogMessages}>
-            <DialogMessagesItem text="Hi"/>
-            <DialogMessagesItem text="Hello"/>
-            <DialogMessagesItem text="How are you?"/>
+            {props.messagesData}
         </div>
     );
 }

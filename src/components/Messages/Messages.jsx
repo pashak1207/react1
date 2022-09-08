@@ -2,11 +2,11 @@ import DialogMessages from "./DialogMessages/DialogMessages";
 import Dialogs from "./Dialogs/Dialogs";
 import classes from "./Messages.module.css";
 
-const Messages = () => {
+const Messages = (props) => {
     return (
         <div className={classes.messages}>
-            <Dialogs/>
-            <DialogMessages/>
+            <Dialogs dialogProfileData={props.dialogProfileData}/>
+            <DialogMessages messagesData={props.messagesData}/>
         </div>
     );
 }

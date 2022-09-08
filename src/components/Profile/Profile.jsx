@@ -1,7 +1,7 @@
 import classes from "./Profile.module.css";
 import MyPosts from "./MyPosts/MyPosts"
 
-const Profile = () => {
+const Profile = (props) => {
     return (
         <div className={classes.content}>
             <img src="https://www.bmw-motorsport.com/content/dam/bmw/marketBMWSPORTS/bmw-motorsport_com/assets/fascination/wallpaper/bmw-motorsport-m6-gt3-m4-gt4-m240i-customer-racing-wallpaper.jpg.asset.1581519349390.jpg" alt="" />
@@ -15,7 +15,7 @@ const Profile = () => {
                     <p>Work: Front-end programmer</p>
                 </div>
             </div>
-            <MyPosts />
+            <MyPosts postsData={props.postsData}/>
         </div>
     );
 }

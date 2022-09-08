@@ -1,11 +1,10 @@
 import DialogProfile from "./DialogProfile/DialogProfile";
 import classes from "./Dialogs.module.css";
 
-const Dialogs = () => {
+const Dialogs = (props) => {
     return (
         <div className={classes.dialogs}>
-            <DialogProfile id="1" name="Maks" last="Hi!"/>
-            <DialogProfile id="2" name="Vlad" last="Hello!"/>
+            {props.dialogProfileData}
         </div>
     );
 }
