@@ -4,8 +4,8 @@ import classes from "./Dialogs.module.css";
 const Dialogs = () => {
     return (
         <div className={classes.dialogs}>
-            <DialogProfile/>
-            <DialogProfile/>
+            <DialogProfile id="1" name="Maks" last="Hi!"/>
+            <DialogProfile id="2" name="Vlad" last="Hello!"/>
         </div>
     );
 }

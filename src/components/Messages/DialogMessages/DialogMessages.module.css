@@ -3,4 +3,16 @@
     background: #fcfcfc;
     height: 100%;
     border-left: 1px solid #eee;
+    padding: 10px;
+}
+
+.dialogMessages h2{
+    font-weight: 600;
+    font-size: 18px;
+    color: #000;
+    margin-bottom: 10px;
+}
+
+.dialogMessages h2:last-child{
+    margin-bottom: 0;
 }

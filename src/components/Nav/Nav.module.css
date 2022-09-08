@@ -4,6 +4,10 @@
     padding: 20px;
 }
 
+a.active{
+    color: #000;
+}
+
 a {
     color: #fff;
     font-weight: 700;

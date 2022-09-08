@@ -1,23 +1,28 @@
-.dialogProfile{
+.dialogProfile a{
     display: flex;
     align-items: center;
     padding: 10px;
     cursor: pointer;
     border-top: 1px solid #eee;
     background: #f7f7f7;
-    transition: all 0.3s ease 0s;;
+    transition: all 0.3s ease 0s;
 }
 
-.dialogProfile:last-child{
+.dialogProfile a.active{
+    background: #cfcfcfe3;
+}
+
+.dialogProfile:last-child a{
     border-bottom: 1px solid #eee;
 }
 
-.dialogProfile:hover{
+.dialogProfile a:hover{
     background: #c7c7c7de;
 }
 
 .text{
     margin-left: 10px;
+    color: #000;
 }
 
 .text h3{
