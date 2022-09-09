@@ -1,3 +1,5 @@
+import {renderTree} from "./../render";
+
 let state = {
   messagesPage:{
       messagesDataEl : [
@@ -25,6 +27,14 @@ let state = {
       {name:"Dima"}
     ]
   }
+}
+
+export let addMessageFunc= (textMess)=>{
+  let newMessItem = {
+    text: textMess
+  }
+  state.messagesPage.messagesDataEl.push(newMessItem);
+  renderTree(state);
 }
 
 export default state;

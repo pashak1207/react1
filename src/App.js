@@ -1,4 +1,3 @@
-import logo from "./logo.svg";
 import "./App.css";
 import Header from "./components/Header/Header";
 import Nav from "./components/Nav/Nav";
@@ -20,7 +19,7 @@ function App(props) {
             />
             <Route
               path="/message/*"
-              element={<Messages state={props.state.messagesPage} />}
+              element={<Messages state={props.state.messagesPage} addMessageFunc={props.addMessageFunc}/>}
             />
           </Routes>
         </div>

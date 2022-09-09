@@ -12,3 +12,29 @@
     color: #000;
     margin-bottom: 10px;
 }
+
+.addPost{
+    display: flex;
+    height: 60px;
+    width: 100%;
+    margin-top: 10px;
+    padding-top: 10px;
+    border-top: 1px solid #eee;
+}
+
+.addPost textarea{
+    flex: 1 1 auto;
+    padding: 5px 10px;
+    border: 1px solid #2b2b2b;
+    border-radius: 8px 0 0 8px;
+    resize: none;
+}
+
+.addPost button{
+    height: 100%;
+    width: 100px;
+    background: #3290bf;
+    color: #fff;
+    font-weight: 700;
+    border-radius: 0 8px 8px 0;
+}
