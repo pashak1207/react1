@@ -17,7 +17,14 @@ let state = {
           { text: "Good weather today" },
           { text: "Have a nice day" },
         ]
-    }
+    },
+  navbar:{
+    onlineParthnersDataEl : [
+      {name:"Sasha"},
+      {name:"Vlad"},
+      {name:"Dima"}
+    ]
+  }
 }
 
 export default state;

@@ -1,7 +1,8 @@
 import classes from "./Nav.module.css";
 import { NavLink } from "react-router-dom";
+import OnlineParthners from "./OnlineParthners/OnlineParthners";
 
-const Nav = () => {
+const Nav = (props) => {
     return (
         <nav className={classes.nav}>
             <ul>
@@ -11,6 +12,7 @@ const Nav = () => {
                 <li><a href="#">Music</a></li>
                 <li><a href="#">Settings</a></li>
             </ul>
+            <OnlineParthners onlineParthnersDataEl={props.state.onlineParthnersDataEl}/>
         </nav>
     );
 }

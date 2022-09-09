@@ -15,7 +15,7 @@ const Profile = (props) => {
                     <p>Work: Front-end programmer</p>
                 </div>
             </div>
-            <MyPosts postsData={props.postsData}/>
+            <MyPosts postsData={props.state.postsDataEl}/>
         </div>
     );
 }
